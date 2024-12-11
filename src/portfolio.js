@@ -275,18 +275,60 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Computer Vision Software Developer",
+      company: "Martinrea International Inc.",
+      companylogo: require("./assets/images/martinrea.png"),
+      date: "September 2024 – December 2024",
+      desc: "Developed AI models for welding inspection, improving accuracy and reducing cycle times. Built pipelines for real-time image processing and model retraining, and implemented multithreading to minimize downtime. Created tools for data augmentation and synthetic image generation, and trained models using platforms like Teachable Machine and Roboflow. Additionally, optimized logistics with a custom Excel VBA and Python script, saving $20,000 annually, and utilized SQL queries in Power BI for visualizing company productivity.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      ],
+      tech: {
+        title: emoji(
+          "Tech Stack:"
+        ),
+        imageUrl: [
+          {
+            name: "Python",
+            imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+          },          
+          {
+            name: "TensorFlow",
+            imageUrl: "https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png",
+          },
+          {
+            name: "Flask",
+            imageUrl: "https://ih1.redbubble.net/image.5527411452.4567/st,small,507x507-pad,600x600,f8f8f8.jpg",
+          },
+          {
+            name: "React.js",
+            imageUrl: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+          },
+          {
+            name: "Ultralytics YOLO",
+            imageUrl: "https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg",
+          },
+          {
+            name: "Keras",
+            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/2048px-Keras_logo.svg.png",
+          },
+          {
+            name: "Roboflow",
+            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9pl1f0FUgfttU7hr0ZZcxaGCTMTGO1ZNrA&s",
+          },
+          {
+            name: "PyTorch",
+            imageUrl: "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png",
+          },
+          {
+            name: "SQL",
+            imageUrl: "https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-1955x2048-4pmty46t.png",
+          },
+          
+        ]
+      },
     },
     {
-      role: "Front-End Developer",
+      role: "Web Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
