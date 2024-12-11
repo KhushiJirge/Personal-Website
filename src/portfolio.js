@@ -49,7 +49,7 @@ const skillsSection = {
   skills: [
     {
       title: emoji(
-        "⚡ Programming Languages:"
+        "⚡ Programming Languages:" 
       ),
       imageUrl: [
         
