@@ -24,8 +24,11 @@ export default function Contact() {
                   ? "dark-mode contact-subtitle"
                   : "subTitle contact-subtitle"
               }
+              style={{
+                fontSize:21
+              }}
             >
-              {contactInfo.subtitle}
+              <b>{contactInfo.subtitle}</b>
             </p>
             <div
               className={
@@ -47,8 +50,21 @@ export default function Contact() {
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
+                style={{
+                  fontSize:20
+                }}
               >
                 {contactInfo.email_address}
+              </a>
+              <br></br>
+              <a
+                className="contact-detail-email"
+                href={"mailto:" + contactInfo.email_address}
+                style={{
+                  fontSize:20
+                }}
+              >
+                {contactInfo.other_email}
               </a>
               <br />
               <br />

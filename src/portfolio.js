@@ -401,7 +401,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -470,11 +470,12 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me!"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open for all :)",
   number: "",
-  email_address: "khushi.jirge@gmail.com"
+  email_address: "khushi.jirge@gmail.com",
+  other_email: "ksjirge@uwaterloo.ca"
 };
 
 // Twitter Section
