@@ -54,9 +54,29 @@ export default function Skills() {
                         ? "dark-mode subTitle skills-text"
                         : "subTitle skills-text"
                     }
+                    style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '10px' }}
                   >
-                    {skills}
+                    <span
+                      style={{
+                        fontSize: '18px',  // Adjust size as needed
+                        fontWeight: 'bold', // Make the title bold
+                      }}
+                    >
+                      {skills.title}
+                    </span>
+                    {skills.imageUrl.map((image, index) => (
+                      <div key={index} className="image-container" style={{ textAlign: 'center' }}>
+                        <img
+                          src={image.imageUrl}
+                          alt={image.name}
+                          className="software-skill-image"
+                          style={{ width: '40px', height: '40px' }}
+                        />
+                        <p style={{ marginTop: '5px', fontSize: '15px' }}>{image.name}</p> {/* Name under the image */}
+                      </div>
+                    ))}
                   </p>
+                  
                 );
               })}
             </div>

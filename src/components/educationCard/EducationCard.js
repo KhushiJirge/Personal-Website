@@ -9,7 +9,7 @@ export default function EducationCard({school}) {
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
+          <li key={i} className="bullets">
             {item}
           </li>
         ))
@@ -38,7 +38,7 @@ export default function EducationCard({school}) {
             <h5 className="education-text-school">{school.schoolName}</h5>
 
             <div className="education-text-details">
-              <h5
+            <h5
                 className={
                   isDark
                     ? "dark-mode education-text-subHeader"
@@ -51,14 +51,18 @@ export default function EducationCard({school}) {
                 className={`${
                   isDark ? "dark-mode" : ""
                 } education-text-duration`}
-                style={{
-                  marginInlineStart:100,
-                }}
               >
                 {school.duration}
               </p>
+              
               <p className="education-text-desc">{school.desc}</p>
-              <div className="education-text-bullets">
+              <div 
+              className={
+                isDark
+                  ? "dark-mode education-text-bullets"
+                  : ""
+              }
+ >
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
                 </ul>

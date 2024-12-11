@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Khushi Jirge",
-  title: "Hi there, I'm Khushi Jirge!",
+  title: "Hey there, I'm Khushi Jirge!",
   subTitle: emoji(
     "I am a student at the University of Waterloo studying Honors Computer Science. I am always enthusiastic about learning new skills and applying my passion for technology while collaborating with like-minded people. Feel free to connect with me and chat!"
   ),
@@ -47,28 +47,124 @@ const skillsSection = {
   title: "My Tech Stack",
   subTitle: "",
   skills: [
-    emoji(
-      "⚡ Programming Languages:"
-    ),
-    emoji(
-      "⚡ Databases:"
-    ),
-    emoji(
-      "⚡ Machine Learning:"
-    ),
-    emoji(
-      "⚡ Tools/Technologies:"
-    ),
-    emoji("⚡ Frontend:"),
-    emoji(
-      "⚡ Backend:"
-    )
+    {
+      title: emoji(
+        "⚡ Programming Languages:"
+      ),
+      imageUrl: [
+        
+        {
+          name: "Python",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        },
+        {
+          name: "C",
+          imageUrl: "https://static-00.iconduck.com/assets.00/c-original-icon-1788x2048-6b74oi6m.png",
+        },
+        {
+          name: "C++",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/6132/6132222.png",
+        },
+        {
+          name: "Java",
+          imageUrl: "https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png",
+        },
+        {
+          name: "SQL",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/4299/4299956.png",
+        },
+        {
+          name: "Racket",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Racket-logo.svg/1200px-Racket-logo.svg.png",
+        },
+        {
+          name: "Turing",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5PP7ZOgL3_KrTc7QoJiT_Kfj5EZbzvRrZnw&s",
+        },
+        
+      ]
+    },
+
+    {
+      title: emoji(
+        "⚡ Machine Learning Libraries/Tools:"
+      ),
+      imageUrl: [
+        
+        {
+          name: "Ultralytics YOLO",
+          imageUrl: "https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg",
+        },
+        {
+          name: "TensorFlow",
+          imageUrl: "https://static-00.iconduck.com/assets.00/tensorflow-icon-955x1024-hd4xzbqj.png",
+        },
+        {
+          name: "Keras",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/2048px-Keras_logo.svg.png",
+        },
+        {
+          name: "OpenCV",
+          imageUrl: "https://static-00.iconduck.com/assets.00/opencv-icon-828x1024-zpluvq45.png",
+        },
+        {
+          name: "PyTorch",
+          imageUrl: "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png",
+        },
+        {
+          name: "Matplotlib",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1200px-Matplotlib_icon.svg.png",
+        },
+        {
+          name: "Numpy",
+          imageUrl: "https://static-00.iconduck.com/assets.00/file-type-numpy-icon-1901x2048-oulkqypt.png",
+        },
+        {
+          name: "Roboflow",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9pl1f0FUgfttU7hr0ZZcxaGCTMTGO1ZNrA&s",
+        },
+        {
+          name: "CVAT",
+          imageUrl: "https://cdn.prod.website-files.com/62c2f68750086204ad7a18f9/640616a471bfc400062bc25c_Avatar%2004.png",
+        },
+        {
+          name: "Hugging Face",
+          imageUrl: "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+        },
+        
+        
+      ]
+    },
+    {
+      title: emoji(
+        "⚡ Databases:"
+      ),
+      imageUrl: [
+        
+        {
+          name: "MongoDB",
+          imageUrl: "https://www.svgrepo.com/show/331488/mongodb.svg",
+        },
+        {
+          name: "Firebase",
+          imageUrl: "https://www.gstatic.com/devrel-devsite/prod/v3239347c48d1e3c46204782fd038ba187a6753dfa7d7a0d08a574587ae2085f5/firebase/images/touchicon-180.png",
+        },
+        {
+          name: "MySQL",
+          imageUrl: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+        },
+        
+      ]
+    },
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [],
+  softwareSkills: [
+    
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -93,12 +189,16 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "Georges Vanier Secondary School",
+      logo: require("./assets/images/GVSS_logo.jpg"),
+      subHeader: "High School Diploma",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "STEM+ Program, Information and Communication Technology SHSM",
+      descBullets: ["Extracurriculars: Robotics, Math Club, Student Council, Social Justice, Ambassador's Club",
+        "Achievements: Won 4 certificates of Distinctions for Math contests by placing in the top 25%.",
+        "Awards: Computer Science, Math, and Business Leadership subject awards for top grades.",
+        "Scholarships: Waterloo President's Scholarship of Distinction, Telesat Women in STEM, Ted Rogers Scholarship, Schulich Leader Scholarship offer"
+      ]
     }
   ]
 };

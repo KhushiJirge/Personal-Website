@@ -9,13 +9,13 @@ export default function SoftwareSkill() {
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
-              <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}
-              >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+              <li key={i} className="software-skill-inline" name={skills.skillName}>
+                <img 
+                  src={"https://static-00.iconduck.com/assets.00/c-original-icon-1788x2048-6b74oi6m.png"}
+                  alt={skills.skillName} 
+                  className="software-skill-image"
+                  style={{ width: '40px', height: '40px' }}
+                />
               </li>
             );
           })}
