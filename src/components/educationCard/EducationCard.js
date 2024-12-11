@@ -51,6 +51,9 @@ export default function EducationCard({school}) {
                 className={`${
                   isDark ? "dark-mode" : ""
                 } education-text-duration`}
+                style={{
+                  marginInlineStart:100,
+                }}
               >
                 {school.duration}
               </p>
