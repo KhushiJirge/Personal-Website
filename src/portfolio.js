@@ -71,7 +71,7 @@ const skillsSection = {
         },
         {
           name: "SQL",
-          imageUrl: "https://cdn-icons-png.flaticon.com/512/4299/4299956.png",
+          imageUrl: "https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-1955x2048-4pmty46t.png",
         },
         {
           name: "Racket",
@@ -152,6 +152,51 @@ const skillsSection = {
         {
           name: "MySQL",
           imageUrl: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+        },
+        
+      ]
+    },
+    {
+      title: emoji(
+        "⚡ Frontend/Backend Frameworks:"
+      ),
+      imageUrl: [
+        
+        {
+          name: "React.js",
+          imageUrl: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+        },
+        {
+          name: "Node.js",
+          imageUrl: "https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png",
+        },
+        {
+          name: "HTML5",
+          imageUrl: "https://static-00.iconduck.com/assets.00/html-icon-1451x2048-69sehqrp.png",
+        },
+        {
+          name: "CSS3",
+          imageUrl: "https://static-00.iconduck.com/assets.00/css-3-icon-726x1024-610441pl.png",
+        },
+        {
+          name: "Flask",
+          imageUrl: "https://ih1.redbubble.net/image.5527411452.4567/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        },
+        {
+          name: "React Native",
+          imageUrl: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+        },
+        {
+          name: "Express.js",
+          imageUrl: "https://www.manektech.com/storage/developer/1646733543.webp",
+        },
+        {
+          name: "Expo",
+          imageUrl: "https://static-00.iconduck.com/assets.00/file-type-expo-icon-1807x2048-zlqoaiu7.png",
+        },
+        {
+          name: "Selenium",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/1200px-Selenium_Logo.png",
         },
         
       ]
@@ -412,7 +457,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -421,7 +466,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
