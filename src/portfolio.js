@@ -308,7 +308,7 @@ const workExperiences = {
       company: "Martinrea International Inc.",
       companylogo: require("./assets/images/martinrea.png"),
       date: "September 2024 – December 2024",
-      desc: "Developed AI models for welding inspection, improving accuracy and reducing cycle times. Built camera to computer pipelines for real-time image processing and model retraining, and implemented multithreading to minimize downtime. Created tools for data augmentation and synthetic image generation, and trained models using platforms like Teachable Machine and Roboflow. Additionally, I optimized logistics with a custom Excel VBA and Python script, saving $20,000 annually, and utilized SQL queries in Power BI for visualizing company productivity.",
+      desc: "Developed AI models for welding inspection, improving accuracy and reducing cycle times. Built camera to computer pipelines for real-time image processing and model retraining, and implemented multithreading to minimize downtime. Created tools for data augmentation and synthetic image generation, and trained models using platforms like Teachable Machine and Roboflow. Additionally, I created SQL queries to display company productivity data on Power BI visualizations.",
       descBullets: [
       ],
       tech: [
@@ -552,7 +552,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/space.jpg"),
+      image: require("./assets/images/space.png"),
       projectName: "Space Invaders",
       projectDesc: "Replicated the classic Space Invaders game using Python and PyGame, featuring player-controlled movement, shooting mechanics, custom graphics, and a scoring system with increasing difficulty.",
       footerLink: [

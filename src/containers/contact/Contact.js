@@ -51,17 +51,18 @@ export default function Contact() {
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
                 style={{
-                  fontSize:20
+                  fontSize:20,
                 }}
               >
                 {contactInfo.email_address}
               </a>
               <br></br>
+              <br></br>
               <a
-                className="contact-detail-email"
+                className="contact-detail-email" 
                 href={"mailto:" + contactInfo.email_address}
                 style={{
-                  fontSize:20
+                  fontSize:20,
                 }}
               >
                 {contactInfo.other_email}
