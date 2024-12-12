@@ -66,6 +66,10 @@ const skillsSection = {
           imageUrl: "https://cdn-icons-png.flaticon.com/512/6132/6132222.png",
         },
         {
+          name: "JavaScript",
+          imageUrl: "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
+        },
+        {
           name: "Java",
           imageUrl: "https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png",
         },
@@ -221,7 +225,7 @@ const educationInfo = {
     {
       schoolName: "University of Waterloo",
       logo: require("./assets/images/uwLogo.png"),
-      subHeader: "Bachelor of Computer Science",
+      subHeader: "Bachelor of Computer Science Honours with Co-op",
       duration: "September 2023 - April 2028",
       desc: "Relevant Courses",
       descBullets: [
@@ -237,7 +241,7 @@ const educationInfo = {
       schoolName: "Georges Vanier Secondary School",
       logo: require("./assets/images/GVSS_logo.jpg"),
       subHeader: "High School Diploma",
-      duration: "September 2013 - April 2017",
+      duration: "September 2019 - June 2023",
       desc: "STEM+ Program, Information and Communication Technology SHSM",
       descBullets: ["Extracurriculars: Robotics, Math Club, Student Council, Social Justice, Ambassador's Club",
         "Achievements: Won 4 certificates of Distinctions for Math contests by placing in the top 25%.",
@@ -275,18 +279,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Computer Vision Software Developer",
+      role: "Computer Vision Engineer Intern",
       company: "Martinrea International Inc.",
       companylogo: require("./assets/images/martinrea.png"),
       date: "September 2024 – December 2024",
-      desc: "Developed AI models for welding inspection, improving accuracy and reducing cycle times. Built pipelines for real-time image processing and model retraining, and implemented multithreading to minimize downtime. Created tools for data augmentation and synthetic image generation, and trained models using platforms like Teachable Machine and Roboflow. Additionally, optimized logistics with a custom Excel VBA and Python script, saving $20,000 annually, and utilized SQL queries in Power BI for visualizing company productivity.",
+      desc: "Developed AI models for welding inspection, improving accuracy and reducing cycle times. Built camera to computer pipelines for real-time image processing and model retraining, and implemented multithreading to minimize downtime. Created tools for data augmentation and synthetic image generation, and trained models using platforms like Teachable Machine and Roboflow. Additionally, I optimized logistics with a custom Excel VBA and Python script, saving $20,000 annually, and utilized SQL queries in Power BI for visualizing company productivity.",
       descBullets: [
       ],
-      tech: {
-        title: emoji(
-          "Tech Stack:"
-        ),
-        imageUrl: [
+      tech: [
           {
             name: "Python",
             imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
@@ -323,24 +323,39 @@ const workExperiences = {
             name: "SQL",
             imageUrl: "https://static-00.iconduck.com/assets.00/sql-database-sql-azure-icon-1955x2048-4pmty46t.png",
           },
+          {
+            name: "CVAT",
+            imageUrl: "https://cdn.prod.website-files.com/62c2f68750086204ad7a18f9/640616a471bfc400062bc25c_Avatar%2004.png",
+          },
+          {
+            name: "Hugging Face",
+            imageUrl: "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+          },
           
-        ]
-      },
+        ],
     },
     {
-      role: "Web Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer Intern",
+      company: "PharmAchieve",
+      companylogo: require("./assets/images/pharmachieve.jpg"),
+      date: "July 2022 – August 2022",
+      desc: "I enhanced the company's educational website, used by 45,000 pharmacists and 8,000 nurses annually, by making it WCAG (Web Content Accessibility Guidelines) compliant. Additionally, I converted over 100 medical images into accessible SVG formats, enabling screen readers to read the visual content aloud for visually-impaired people.",
+      tech: [
+        {
+          name: "HTML5",
+          imageUrl: "https://static-00.iconduck.com/assets.00/html-icon-1451x2048-69sehqrp.png",
+        },
+        {
+          name: "CSS3",
+          imageUrl: "https://static-00.iconduck.com/assets.00/css-3-icon-726x1024-610441pl.png",
+        },
+        {
+          name: "JavaScript",
+          imageUrl: "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
+        },
+        
+      ],
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 

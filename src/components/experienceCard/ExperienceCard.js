@@ -75,6 +75,29 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.desc}
         </p>
+        <div style={{
+          display: 'flex', 
+          alignItems:'center',
+          justifyContent:'center',
+          gap: '30px', 
+          flexWrap: 'wrap', 
+          marginTop:30
+        }}>
+        {cardInfo.tech?.map((image, index) => (
+          <div key={index} className={
+              isDark
+                ? "subTitle experience-text-desc dark-mode-text"
+                : "subTitle experience-text-desc"
+            } style={{ alignItems: 'center' }}>
+            <img
+              src={image.imageUrl}
+              alt={image.name}
+              style={{ width: '40px', height: '40px' }}
+            />
+            <p style={{ marginTop: '5px', fontSize: '15px' }}>{image.name}</p>
+          </div>
+        ))}
+        </div>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>

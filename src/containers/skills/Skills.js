@@ -57,14 +57,14 @@ export default function Skills() {
                       flexDirection: 'column', // Align children vertically
                       alignItems: 'flex-start', // Align items to the left
                       gap: '20px', // Space between the title and images
-                      marginBottom: 50
+                      marginBottom: 50,
                     }}
                   >
                     <span
                       style={{
                         fontSize: '18px',
                         fontWeight: 'bold',
-                        textAlign: 'left', // Align the title to the left
+                        textAlign: 'left', // Align the title to the left,
                       }}
                     >
                       {skills.title}
@@ -75,7 +75,8 @@ export default function Skills() {
                       display: 'flex', 
                       alignItems: 'flex-start', // Align images to the left
                       gap: '30px', // Space between images
-                      flexWrap: 'wrap' // Allows images to wrap to the next line if needed
+                      flexWrap: 'wrap', // Allows images to wrap to the next line if needed,
+                      marginLeft: 30
                     }}>
                       {skills.imageUrl.map((image, index) => (
                         <div key={index} className="image-container" style={{ textAlign: 'center' }}>
