@@ -65,6 +65,28 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    <div style={{
+                      display: 'flex', 
+                      alignItems:'center',
+                      justifyContent:'center',
+                      gap: '30px', 
+                      flexWrap: 'wrap', 
+                      marginTop:30,
+                      marginBottom:30
+                    }}>
+                    {project.tech?.map((image, index) => (
+                      <div key={index} className={
+                          isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        } style={{ alignItems: 'center' }}>
+                        <img
+                          src={image.imageUrl}
+                          alt={image.name}
+                          style={{ width: '40px', height: '40px' }}
+                        />
+                        <p style={{ marginTop: '5px', fontSize: '15px' }}>{image.name}</p>
+                      </div>
+                    ))}
+                    </div>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {

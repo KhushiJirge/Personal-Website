@@ -202,6 +202,31 @@ const skillsSection = {
           name: "Selenium",
           imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/1200px-Selenium_Logo.png",
         },
+        {
+          name: "Beautiful Soup",
+          imageUrl: "https://datascientest.com/en/files/2024/01/beautiful-soup.png",
+        },
+        
+      ]
+    },
+    {
+      title: emoji(
+        "⚡ Tools/Technologies:"
+      ),
+      imageUrl: [
+        
+        {
+          name: "Git",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png",
+        },
+        {
+          name: "Jupyter Notebook",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+        },
+        {
+          name: "Power BI",
+          imageUrl: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/power-bi-icon.png",
+        },
         
       ]
     },
@@ -370,30 +395,204 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/storybook.jpg"),
+      projectName: "Tale Teller",
+      projectDesc: "Developed a storybook app with the MERN stack, featuring Google OAuth for secure authentication. I implemented genre analysis with XLM-RoBERTa and story prompts using GPT-2 via a Flask API, and used Beautiful Soup to scrape writing contest opportunities for user growth.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check it out!",
+          url: "https://github.com/KhushiJirge/Tale-Teller"
         }
         //  you can add extra buttons here.
+      ],
+      tech: [
+        {
+          name: "MongoDB",
+          imageUrl: "https://www.svgrepo.com/show/331488/mongodb.svg",
+        },
+        {
+          name: "Express.js",
+          imageUrl: "https://www.manektech.com/storage/developer/1646733543.webp",
+        },
+        {
+          name: "React.js",
+          imageUrl: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+        },
+        {
+          name: "Node.js",
+          imageUrl: "https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png",
+        },
+        {
+          name: "Python",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        },
+        {
+          name: "Flask",
+          imageUrl: "https://ih1.redbubble.net/image.5527411452.4567/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        },
+        {
+          name: "Beautiful Soup",
+          imageUrl: "https://datascientest.com/en/files/2024/01/beautiful-soup.png",
+        },
+        {
+          name: "Hugging Face",
+          imageUrl: "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+        },
+
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pawfectmatch.jpg"),
+      projectName: "Pawfect Match",
+      projectDesc: "Developed a mobile app for pet adoption using React Native and Expo, enabling users to browse available pets. User data, adoption criteria, and pet details were managed with Firebase, ensuring real-time syncing. I also implemented real-time chat messaging via Firebase for communication between users and adoption centers.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check it out!",
+          url: "https://github.com/KhushiJirge/Pawfect-Match"
         }
+      ],
+      tech: [
+        {
+          name: "Firebase",
+          imageUrl: "https://www.gstatic.com/devrel-devsite/prod/v3239347c48d1e3c46204782fd038ba187a6753dfa7d7a0d08a574587ae2085f5/firebase/images/touchicon-180.png",
+        },
+        {
+          name: "React Native",
+          imageUrl: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+        },
+        {
+          name: "Expo",
+          imageUrl: "https://static-00.iconduck.com/assets.00/file-type-expo-icon-1807x2048-zlqoaiu7.png",
+        },
+        {
+          name: "JavaScript",
+          imageUrl: "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/plantpal.jpg"),
+      projectName: "Plant Pal",
+      projectDesc: "Developed an AI-driven indoor plant recommender app that considers user location, budget, lighting, and season. The app's frontend was built with HTML/CSS/JavaScript, while the backend used Python with Flask for handling requests. I integrated the Gemini Pro Vision API to analyze room lighting and layout images.",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "https://devpost.com/software/plant-pal"
+        }
+      ],
+      tech: [
+        {
+          name: "Flask",
+          imageUrl: "https://ih1.redbubble.net/image.5527411452.4567/st,small,507x507-pad,600x600,f8f8f8.jpg",
+        },
+        {
+          name: "HTML5",
+          imageUrl: "https://static-00.iconduck.com/assets.00/html-icon-1451x2048-69sehqrp.png",
+        },
+        {
+          name: "CSS3",
+          imageUrl: "https://static-00.iconduck.com/assets.00/css-3-icon-726x1024-610441pl.png",
+        },
+        {
+          name: "JavaScript",
+          imageUrl: "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
+        },
+        {
+          name: "Gemini",
+          imageUrl: "https://camo.githubusercontent.com/77ba4ba362fc39151379e4e7691125c8bb130eb2ade811ce9f76d4d5236c6847/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f662f66302f476f6f676c655f426172645f6c6f676f2e7376672f3132303070782d476f6f676c655f426172645f6c6f676f2e7376672e706e67",
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/covid.jpg"),
+      projectName: "COVID-19 Simulator",
+      projectDesc: "Designed a graphical COVID-19 simulator using Java with OOP concepts, Gradle, and GUI tools like Swing and AWT in Apache NetBeans. The simulator visualizes COVID-19 spread under various factors, including vaccinations, quarantine, and gathering limits, using line charts and visual elements to predict accurate results.",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "https://github.com/KhushiJirge/MyProjects/tree/COVID-19-Simulation"
+        }
+      ],
+      tech: [
+        {
+          name: "Java",
+          imageUrl: "https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png",
+        },
+
+      ]
+    },
+    {
+      image: require("./assets/images/drone.avif"),
+      projectName: "WARG Bootcamp",
+      projectDesc: "Used the Ultralytics object detection AI to identify drone landing pads and developed an algorithm for the drone to land on the closest pad upon reaching its waypoint. I tested the drone's functionality in a Python-based simulator environment.",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "https://github.com/KhushiJirge/Autonomy-Bootcamp"
+        }
+      ],
+      tech: [
+        {
+          name: "Python",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        },
+        {
+          name: "Ultralytics YOLO",
+          imageUrl: "https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922cf2a6385a4bf4489_UltralyticsYOLO_mark_blue.svg",
+        },
+        {
+          name: "PyTorch",
+          imageUrl: "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png",
+        },
+
+      ]
+    },
+    {
+      image: require("./assets/images/space.jpg"),
+      projectName: "Space Invaders",
+      projectDesc: "Replicated the classic Space Invaders game using Python and PyGame, featuring player-controlled movement, shooting mechanics, custom graphics, and a scoring system with increasing difficulty.",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "https://github.com/KhushiJirge/MyProjects/tree/Space-Invaders-Replica"
+        }
+      ],
+      tech: [
+        {
+          name: "Python",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        },
+        {
+          name: "PyGame",
+          imageUrl: "https://user-images.githubusercontent.com/9541/97474395-5b9a9b80-194c-11eb-8ada-5fbe23fb37c9.png",
+        },
+
+      ]
+    },
+    {
+      image: require("./assets/images/tic.png"),
+      projectName: "Tic-Tac-Toe AI",
+      projectDesc: "Created a classic Tic-Tac-Toe game using Python and PyGame for Harvard’s CS50 Intro to AI course, incorporating tree traversal algorithms like DFS and the Minimax algorithm, optimized with Alpha-Beta pruning.",
+      footerLink: [
+        {
+          name: "Check it out!",
+          url: "https://github.com/KhushiJirge/MyProjects/tree/Harvard-CS50-Intro-to-Artificial-Intelligence/tictactoe"
+        }
+      ],
+      tech: [
+        {
+          name: "Python",
+          imageUrl: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        },
+        {
+          name: "PyGame",
+          imageUrl: "https://user-images.githubusercontent.com/9541/97474395-5b9a9b80-194c-11eb-8ada-5fbe23fb37c9.png",
+        },
+
       ]
     }
   ],
